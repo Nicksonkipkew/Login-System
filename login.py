@@ -47,7 +47,7 @@ def login():
       with open("current.json", "w") as  outfile:
         json.dump(data, outfile)
     else:
-      print("Incorrect username or password, try again")
+      print("Incorrect username or password combination, try again")
       login()
   except FileNotFoundError:
     print("Sorry, we cant find your account")
