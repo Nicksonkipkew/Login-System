@@ -3,5 +3,5 @@ import login
 
 
 
-print("Welcome to the secret treasure!")
+print("Welcome to the secret treasure !")
 
